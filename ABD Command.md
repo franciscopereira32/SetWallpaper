@@ -8,8 +8,8 @@ Adb install setwallpaper.apk
 adb shell monkey -p com.forogh.parwiz.setwallpaperp -v 1
 # Event
 adb shell input keyevent 22  
-adb shell input keyevent 66 /n
-adb shell input keyevent 40 /n
+adb shell input keyevent 66
+adb shell input keyevent 40
 adb shell input keyevent KEYCODE_HOME
 
 # Remove app
